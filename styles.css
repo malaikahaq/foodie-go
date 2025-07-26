@@ -1,0 +1,212 @@
+/* #f4db5e */
+body {
+  font-family: "poppins";
+  margin: 0 0;
+  height: 100%;
+}
+
+#parent-container {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto;
+  overflow-y: auto;
+  grid-template-areas:
+    "nav"
+    "hero"
+    "order"
+    "get-app"
+    "partner-grow"
+    "cities"
+    "follow"
+    "terms-etc"
+    "footer";
+}
+#main-nav-container {
+  background-color: #eeeeee;
+  grid-area: nav;
+}
+#hero-container {
+  background-color: #eeeeee;
+  grid-area: hero;
+  padding: 90px 200px;
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+}
+#hero-logo-text {
+  border-radius: 20px;
+  background-color: #dc5f00;
+  color: #eeeeee;
+  text-align: center;
+  font-weight: bolder;
+}
+#hero-header-text {
+  color: #dc5f00;
+  text-align: center;
+}
+#hero-btn {
+  background-color: #dc5f00;
+  border: none;
+  padding: 10px 35px;
+  border-radius: 20px;
+}
+#order-container {
+  background-color: white;
+  grid-area: order;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-gap: 25px;
+  padding: 30px 100px;
+  grid-template-areas:
+    "food flowers"
+    "donations donations";
+}
+#order-food-container {
+  padding: 20px 20px;
+  color: white;
+  min-height: 300px;
+  border-radius: 20px;
+  background-color: #9e9e9e;
+  grid-area: food;
+}
+#order-flowers-container {
+  padding: 20px 20px;
+  color: white;
+  min-height: 300px;
+  border-radius: 20px;
+  background-color: #676767;
+  grid-area: flowers;
+}
+#donations-container {
+  padding: 20px 20px;
+  color: white;
+  min-height: 300px;
+  max-width: 600px;
+  border-radius: 20px;
+  background-color: #757575;
+  grid-area: donations;
+  margin: auto;
+}
+.order-btn {
+  background-color: white;
+  border: 1.5px solid #dc5f00;
+  padding: 10px 35px;
+  border-radius: 20px;
+}
+.dark-heading1 {
+  color: #2c1300;
+}
+#get-app-container {
+  color: #2c1300;
+  padding: 40px 200px;
+  background-color: #eeeeee;
+  grid-area: get-app;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  justify-content: center;
+}
+#get-app-header {
+  text-align: center;
+}
+#get-app-caption {
+  text-align: center;
+  font-size: large;
+}
+.app-icon {
+  height: 50px;
+  width: 150px;
+  background-color: #373a40;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#app-icon-container {
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  grid-gap: 20px;
+  justify-content: center;
+}
+#partner-grow {
+  background-color: white;
+  grid-area: partner-grow;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 25px;
+
+  padding: 30px 100px;
+}
+#partner-container {
+  padding: 20px 20px;
+  min-height: 220px;
+  border-radius: 20px;
+  background-color: #eeeeee;
+}
+#grow-container {
+  padding: 20px 20px;
+  min-height: 220px;
+  border-radius: 20px;
+  background-color: #eeeeee;
+}
+#cities-container {
+  padding: 30px 100px;
+  background-color: white;
+  grid-area: cities;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "cities-header cities-header"
+    "cities-dropdown cities-dropdown";
+}
+#cities-header {
+  grid-area: cities-header;
+  display: flex;
+  justify-content: left;
+}
+#cities-dropdown {
+  margin: auto;
+  grid-area: cities-dropdown;
+  height: 50px;
+  width: 400px;
+  background-color: #eeeeee;
+  border-radius: 20px;
+  padding: 20px 20px;
+}
+#follow-container {
+  background-color: #686d76;
+  grid-area: follow;
+}
+#terms-etc {
+  background-color: #686d76;
+  grid-area: terms-etc;
+  padding: 12px 250px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto;
+}
+#footer-container {
+  display: flex;
+  justify-content: center;
+  background-color: #373a40;
+  grid-area: footer;
+}
+.light-caption {
+  color: #eeeeee;
+  font-size: smaller;
+}
+.partner-grow-btn {
+  background-color: #dc5f00;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 10px 35px;
+  border-radius: 20px;
+}
