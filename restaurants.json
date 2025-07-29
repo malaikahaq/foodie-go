@@ -4,375 +4,1399 @@
     "category": "Sushi, Asian",
     "image": "images/yamato.png",
     "rating": 4.7,
-    "time": "45–65 min",
-    "price": "Free"
-  },
-  {
-    "name": "Katsu Sushi",
-    "category": "Sushi, Japanese",
-    "image": "images/katsu.png",
-    "rating": 4.6,
-    "time": "60–75 min",
-    "price": "$1.50"
+    "time": "45-65 min",
+    "price": "Free",
+    "menu": [
+      {
+        "name": "Spicy Tuna Roll",
+        "price": "$4.76",
+        "description": "Tuna, spicy mayo, scallions",
+        "image": "images/menu/spicy-tuna-roll.png"
+      },
+      {
+        "name": "Rainbow Roll",
+        "price": "$4.33",
+        "description": "Tuna, salmon, avocado, cucumber",
+        "image": "images/menu/rainbow-roll.png"
+      },
+      {
+        "name": "Dragon Uramaki",
+        "price": "$7.28",
+        "description": "Shrimp tempura, avocado, kampyo, eel sauce",
+        "image": "images/menu/dragon-uramaki.png"
+      },
+      {
+        "name": "Salmon Futomaki",
+        "price": "$5.3",
+        "description": "Salmon, cream cheese, cucumber, avocado",
+        "image": "images/menu/salmon-futomaki.png"
+      },
+      {
+        "name": "Veggie Maki",
+        "price": "$7.91",
+        "description": "Cucumber, carrot, avocado",
+        "image": "images/menu/veggie-maki.png"
+      }
+    ]
   },
   {
     "name": "Shimizu Rolls",
     "category": "Sushi, Japanese",
     "image": "images/shimizu.png",
     "rating": 4.5,
-    "time": "30–45 min",
-    "price": "Free"
-  },
-  {
-    "name": "Tokyo Maki House",
-    "category": "Sushi, Fast Casual",
-    "image": "images/tokyomaki.png",
-    "rating": 4.2,
-    "time": "35–50 min",
-    "price": "$1.25"
+    "time": "30-45 min",
+    "price": "Free",
+    "menu": [
+      {
+        "name": "Rainbow Roll",
+        "price": "$11.6",
+        "description": "Tuna, salmon, avocado, cucumber",
+        "image": "images/menu/rainbow-roll.png"
+      },
+      {
+        "name": "Spicy Tuna Roll",
+        "price": "$11.21",
+        "description": "Tuna, spicy mayo, scallions",
+        "image": "images/menu/spicy-tuna-roll.png"
+      },
+      {
+        "name": "Salmon Futomaki",
+        "price": "$5.42",
+        "description": "Salmon, cream cheese, cucumber, avocado",
+        "image": "images/menu/salmon-futomaki.png"
+      },
+      {
+        "name": "Veggie Maki",
+        "price": "$11.39",
+        "description": "Cucumber, carrot, avocado",
+        "image": "images/menu/veggie-maki.png"
+      },
+      {
+        "name": "Dragon Uramaki",
+        "price": "$8.49",
+        "description": "Shrimp tempura, avocado, kampyo, eel sauce",
+        "image": "images/menu/dragon-uramaki.png"
+      }
+    ]
   },
   {
     "name": "Sakana Lane",
     "category": "Sushi, Bento",
     "image": "images/sakana.png",
     "rating": 4.6,
-    "time": "40–60 min",
-    "price": "$0.99"
+    "time": "40-60 min",
+    "price": "$0.99",
+    "menu": [
+      {
+        "name": "Veggie Maki",
+        "price": "$8.07",
+        "description": "Cucumber, carrot, avocado",
+        "image": "images/menu/veggie-maki.png"
+      },
+      {
+        "name": "Dragon Uramaki",
+        "price": "$6.5",
+        "description": "Shrimp tempura, avocado, kampyo, eel sauce",
+        "image": "images/menu/dragon-uramaki.png"
+      },
+      {
+        "name": "Salmon Futomaki",
+        "price": "$11.92",
+        "description": "Salmon, cream cheese, cucumber, avocado",
+        "image": "images/menu/salmon-futomaki.png"
+      },
+      {
+        "name": "Spicy Tuna Roll",
+        "price": "$4.89",
+        "description": "Tuna, spicy mayo, scallions",
+        "image": "images/menu/spicy-tuna-roll.png"
+      },
+      {
+        "name": "Rainbow Roll",
+        "price": "$8.91",
+        "description": "Tuna, salmon, avocado, cucumber",
+        "image": "images/menu/rainbow-roll.png"
+      }
+    ]
   },
   {
     "name": "Nori Republic",
     "category": "Sushi, Vegetarian",
     "image": "images/nori.png",
     "rating": 4.9,
-    "time": "50–65 min",
-    "price": "Free"
+    "time": "50-65 min",
+    "price": "Free",
+    "menu": [
+      {
+        "name": "Rainbow Roll",
+        "price": "$11.25",
+        "description": "Tuna, salmon, avocado, cucumber",
+        "image": "images/menu/rainbow-roll.png"
+      },
+      {
+        "name": "Veggie Maki",
+        "price": "$6.24",
+        "description": "Cucumber, carrot, avocado",
+        "image": "images/menu/veggie-maki.png"
+      },
+      {
+        "name": "Dragon Uramaki",
+        "price": "$9.23",
+        "description": "Shrimp tempura, avocado, kampyo, eel sauce",
+        "image": "images/menu/dragon-uramaki.png"
+      },
+      {
+        "name": "Salmon Futomaki",
+        "price": "$8.65",
+        "description": "Salmon, cream cheese, cucumber, avocado",
+        "image": "images/menu/salmon-futomaki.png"
+      },
+      {
+        "name": "Spicy Tuna Roll",
+        "price": "$7.67",
+        "description": "Tuna, spicy mayo, scallions",
+        "image": "images/menu/spicy-tuna-roll.png"
+      }
+    ]
   },
   {
     "name": "Miso & Maki",
     "category": "Sushi, Ramen",
     "image": "images/misomaki.png",
     "rating": 4.5,
-    "time": "45–55 min",
-    "price": "$1.75"
-  },
-  {
-    "name": "Sunny Side Café",
-    "category": "Breakfast, American",
-    "image": "images/sunnyside.png",
-    "rating": 4.6,
-    "time": "30–45 min",
-    "price": "Free"
-  },
-  {
-    "name": "Morning Crumbs",
-    "category": "Breakfast, Bakery",
-    "image": "images/morningcrumbs.png",
-    "rating": 4.8,
-    "time": "25–35 min",
-    "price": "$1.00"
+    "time": "45-55 min",
+    "price": "$1.75",
+    "menu": [
+      {
+        "name": "Dragon Uramaki",
+        "price": "$11.73",
+        "description": "Shrimp tempura, avocado, kampyo, eel sauce",
+        "image": "images/menu/dragon-uramaki.png"
+      },
+      {
+        "name": "Spicy Tuna Roll",
+        "price": "$4.22",
+        "description": "Tuna, spicy mayo, scallions",
+        "image": "images/menu/spicy-tuna-roll.png"
+      },
+      {
+        "name": "Rainbow Roll",
+        "price": "$5.81",
+        "description": "Tuna, salmon, avocado, cucumber",
+        "image": "images/menu/rainbow-roll.png"
+      },
+      {
+        "name": "Salmon Futomaki",
+        "price": "$11.16",
+        "description": "Salmon, cream cheese, cucumber, avocado",
+        "image": "images/menu/salmon-futomaki.png"
+      },
+      {
+        "name": "Veggie Maki",
+        "price": "$9.43",
+        "description": "Cucumber, carrot, avocado",
+        "image": "images/menu/veggie-maki.png"
+      }
+    ]
   },
   {
     "name": "Toast & Co.",
     "category": "Breakfast, Toast Bar",
     "image": "images/toastco.png",
     "rating": 4.4,
-    "time": "20–30 min",
-    "price": "Free"
+    "time": "20-30 min",
+    "price": "Free",
+    "menu": [
+      {
+        "name": "Avocado Toast",
+        "price": "$9.53",
+        "description": "Sourdough, avocado, chili flakes",
+        "image": "images/menu/avocado-toast.png"
+      },
+      {
+        "name": "Granola Bowl",
+        "price": "$9.77",
+        "description": "Yogurt, berries, honey, granola",
+        "image": "images/menu/granola-bowl.png"
+      },
+      {
+        "name": "Pancake Stack",
+        "price": "$8.35",
+        "description": "Fluffy pancakes with maple syrup",
+        "image": "images/menu/pancake-stack.png"
+      },
+      {
+        "name": "Breakfast Sandwich",
+        "price": "$3.92",
+        "description": "Egg, cheese, tomato, toast",
+        "image": "images/menu/breakfast-sandwich.png"
+      },
+      {
+        "name": "Omelette",
+        "price": "$10.86",
+        "description": "Eggs, cheese, tomato, onion",
+        "image": "images/menu/omelette.png"
+      }
+    ]
   },
   {
     "name": "The Egg Cellent Spot",
     "category": "Breakfast, Omelettes",
     "image": "images/eggcellent.png",
     "rating": 4.7,
-    "time": "35–50 min",
-    "price": "$0.99"
+    "time": "35-50 min",
+    "price": "$0.99",
+    "menu": [
+      {
+        "name": "Pancake Stack",
+        "price": "$8.42",
+        "description": "Fluffy pancakes with maple syrup",
+        "image": "images/menu/pancake-stack.png"
+      },
+      {
+        "name": "Breakfast Sandwich",
+        "price": "$8.88",
+        "description": "Egg, cheese, tomato, toast",
+        "image": "images/menu/breakfast-sandwich.png"
+      },
+      {
+        "name": "Granola Bowl",
+        "price": "$9.89",
+        "description": "Yogurt, berries, honey, granola",
+        "image": "images/menu/granola-bowl.png"
+      },
+      {
+        "name": "Avocado Toast",
+        "price": "$10.48",
+        "description": "Sourdough, avocado, chili flakes",
+        "image": "images/menu/avocado-toast.png"
+      },
+      {
+        "name": "Omelette",
+        "price": "$6.7",
+        "description": "Eggs, cheese, tomato, onion",
+        "image": "images/menu/omelette.png"
+      }
+    ]
   },
   {
     "name": "Brew & Bite",
     "category": "Breakfast, Coffee",
     "image": "images/brewbite.png",
     "rating": 4.3,
-    "time": "25–40 min",
-    "price": "Free"
+    "time": "25-40 min",
+    "price": "Free",
+    "menu": [
+      {
+        "name": "Granola Bowl",
+        "price": "$8.69",
+        "description": "Yogurt, berries, honey, granola",
+        "image": "images/menu/granola-bowl.png"
+      },
+      {
+        "name": "Avocado Toast",
+        "price": "$7.52",
+        "description": "Sourdough, avocado, chili flakes",
+        "image": "images/menu/avocado-toast.png"
+      },
+      {
+        "name": "Pancake Stack",
+        "price": "$8.7",
+        "description": "Fluffy pancakes with maple syrup",
+        "image": "images/menu/pancake-stack.png"
+      },
+      {
+        "name": "Omelette",
+        "price": "$3.59",
+        "description": "Eggs, cheese, tomato, onion",
+        "image": "images/menu/omelette.png"
+      },
+      {
+        "name": "Breakfast Sandwich",
+        "price": "$11.34",
+        "description": "Egg, cheese, tomato, toast",
+        "image": "images/menu/breakfast-sandwich.png"
+      }
+    ]
   },
   {
     "name": "Pancake Cabin",
     "category": "Breakfast, Pancakes",
     "image": "images/pancakecabin.png",
     "rating": 4.6,
-    "time": "30–45 min",
-    "price": "$1.25"
+    "time": "30-45 min",
+    "price": "$1.25",
+    "menu": [
+      {
+        "name": "Omelette",
+        "price": "$4.03",
+        "description": "Eggs, cheese, tomato, onion",
+        "image": "images/menu/omelette.png"
+      },
+      {
+        "name": "Avocado Toast",
+        "price": "$6.4",
+        "description": "Sourdough, avocado, chili flakes",
+        "image": "images/menu/avocado-toast.png"
+      },
+      {
+        "name": "Granola Bowl",
+        "price": "$5.04",
+        "description": "Yogurt, berries, honey, granola",
+        "image": "images/menu/granola-bowl.png"
+      },
+      {
+        "name": "Breakfast Sandwich",
+        "price": "$9.88",
+        "description": "Egg, cheese, tomato, toast",
+        "image": "images/menu/breakfast-sandwich.png"
+      },
+      {
+        "name": "Pancake Stack",
+        "price": "$7.88",
+        "description": "Fluffy pancakes with maple syrup",
+        "image": "images/menu/pancake-stack.png"
+      }
+    ]
   },
   {
     "name": "Rise & Dine",
     "category": "Breakfast, Diner",
     "image": "images/risendine.png",
     "rating": 4.5,
-    "time": "40–60 min",
-    "price": "$1.50"
-  },
-  {
-    "name": "Avocado Junction",
-    "category": "Breakfast, Healthy",
-    "image": "images/avocadojunction.png",
-    "rating": 4.4,
-    "time": "20–35 min",
-    "price": "Free"
+    "time": "40-60 min",
+    "price": "$1.50",
+    "menu": [
+      {
+        "name": "Omelette",
+        "price": "$7.63",
+        "description": "Eggs, cheese, tomato, onion",
+        "image": "images/menu/omelette.png"
+      },
+      {
+        "name": "Breakfast Sandwich",
+        "price": "$5.99",
+        "description": "Egg, cheese, tomato, toast",
+        "image": "images/menu/breakfast-sandwich.png"
+      },
+      {
+        "name": "Avocado Toast",
+        "price": "$3.62",
+        "description": "Sourdough, avocado, chili flakes",
+        "image": "images/menu/avocado-toast.png"
+      },
+      {
+        "name": "Pancake Stack",
+        "price": "$11.29",
+        "description": "Fluffy pancakes with maple syrup",
+        "image": "images/menu/pancake-stack.png"
+      },
+      {
+        "name": "Granola Bowl",
+        "price": "$10.05",
+        "description": "Yogurt, berries, honey, granola",
+        "image": "images/menu/granola-bowl.png"
+      }
+    ]
   },
   {
     "name": "Muffin Mill",
     "category": "Breakfast, Pastries",
     "image": "images/muffinmill.png",
     "rating": 4.2,
-    "time": "25–40 min",
-    "price": "$0.75"
+    "time": "25-40 min",
+    "price": "$0.75",
+    "menu": [
+      {
+        "name": "Omelette",
+        "price": "$5.4",
+        "description": "Eggs, cheese, tomato, onion",
+        "image": "images/menu/omelette.png"
+      },
+      {
+        "name": "Pancake Stack",
+        "price": "$4.6",
+        "description": "Fluffy pancakes with maple syrup",
+        "image": "images/menu/pancake-stack.png"
+      },
+      {
+        "name": "Granola Bowl",
+        "price": "$9.81",
+        "description": "Yogurt, berries, honey, granola",
+        "image": "images/menu/granola-bowl.png"
+      },
+      {
+        "name": "Breakfast Sandwich",
+        "price": "$10.01",
+        "description": "Egg, cheese, tomato, toast",
+        "image": "images/menu/breakfast-sandwich.png"
+      },
+      {
+        "name": "Avocado Toast",
+        "price": "$9.61",
+        "description": "Sourdough, avocado, chili flakes",
+        "image": "images/menu/avocado-toast.png"
+      }
+    ]
   },
   {
     "name": "The Brunch Box",
     "category": "Breakfast, All Day",
     "image": "images/brunchbox.png",
     "rating": 4.9,
-    "time": "35–55 min",
-    "price": "$1.00"
+    "time": "35-55 min",
+    "price": "$1.00",
+    "menu": [
+      {
+        "name": "Pancake Stack",
+        "price": "$6.94",
+        "description": "Fluffy pancakes with maple syrup",
+        "image": "images/menu/pancake-stack.png"
+      },
+      {
+        "name": "Omelette",
+        "price": "$6.19",
+        "description": "Eggs, cheese, tomato, onion",
+        "image": "images/menu/omelette.png"
+      },
+      {
+        "name": "Breakfast Sandwich",
+        "price": "$9.39",
+        "description": "Egg, cheese, tomato, toast",
+        "image": "images/menu/breakfast-sandwich.png"
+      },
+      {
+        "name": "Granola Bowl",
+        "price": "$5.34",
+        "description": "Yogurt, berries, honey, granola",
+        "image": "images/menu/granola-bowl.png"
+      },
+      {
+        "name": "Avocado Toast",
+        "price": "$6.4",
+        "description": "Sourdough, avocado, chili flakes",
+        "image": "images/menu/avocado-toast.png"
+      }
+    ]
   },
   {
     "name": "Dough Bros",
     "category": "Pizza, Italian",
     "image": "images/doughbros.png",
     "rating": 4.6,
-    "time": "40–55 min",
-    "price": "$1.00"
+    "time": "40-55 min",
+    "price": "$1.00",
+    "menu": [
+      {
+        "name": "BBQ Chicken",
+        "price": "$5.0",
+        "description": "Chicken, BBQ sauce, red onions",
+        "image": "images/menu/bbq-chicken.png"
+      },
+      {
+        "name": "Margherita",
+        "price": "$11.58",
+        "description": "Tomato sauce, mozzarella, basil",
+        "image": "images/menu/margherita.png"
+      },
+      {
+        "name": "Veggie Delight",
+        "price": "$6.17",
+        "description": "Bell peppers, onions, mushrooms",
+        "image": "images/menu/veggie-delight.png"
+      },
+      {
+        "name": "Four Cheese",
+        "price": "$6.72",
+        "description": "Mozzarella, parmesan, cheddar, gorgonzola",
+        "image": "images/menu/four-cheese.png"
+      },
+      {
+        "name": "Pepperoni Feast",
+        "price": "$3.85",
+        "description": "Pepperoni, cheese, oregano",
+        "image": "images/menu/pepperoni-feast.png"
+      }
+    ]
   },
   {
     "name": "Pizza Palette",
     "category": "Pizza, Artisanal",
     "image": "images/pizzapalette.png",
     "rating": 4.5,
-    "time": "30–45 min",
-    "price": "Free"
-  },
-  {
-    "name": "Slice & Rise",
-    "category": "Pizza, Classic",
-    "image": "images/sliceandrise.png",
-    "rating": 4.2,
-    "time": "35–50 min",
-    "price": "$0.99"
+    "time": "30-45 min",
+    "price": "Free",
+    "menu": [
+      {
+        "name": "Four Cheese",
+        "price": "$7.1",
+        "description": "Mozzarella, parmesan, cheddar, gorgonzola",
+        "image": "images/menu/four-cheese.png"
+      },
+      {
+        "name": "Veggie Delight",
+        "price": "$7.27",
+        "description": "Bell peppers, onions, mushrooms",
+        "image": "images/menu/veggie-delight.png"
+      },
+      {
+        "name": "Margherita",
+        "price": "$3.54",
+        "description": "Tomato sauce, mozzarella, basil",
+        "image": "images/menu/margherita.png"
+      },
+      {
+        "name": "BBQ Chicken",
+        "price": "$7.88",
+        "description": "Chicken, BBQ sauce, red onions",
+        "image": "images/menu/bbq-chicken.png"
+      },
+      {
+        "name": "Pepperoni Feast",
+        "price": "$8.55",
+        "description": "Pepperoni, cheese, oregano",
+        "image": "images/menu/pepperoni-feast.png"
+      }
+    ]
   },
   {
     "name": "Napoli Express",
     "category": "Pizza, Wood-fired",
     "image": "images/napoliexpress.png",
     "rating": 4.7,
-    "time": "50–65 min",
-    "price": "$1.50"
+    "time": "50-65 min",
+    "price": "$1.50",
+    "menu": [
+      {
+        "name": "Four Cheese",
+        "price": "$11.86",
+        "description": "Mozzarella, parmesan, cheddar, gorgonzola",
+        "image": "images/menu/four-cheese.png"
+      },
+      {
+        "name": "Veggie Delight",
+        "price": "$4.9",
+        "description": "Bell peppers, onions, mushrooms",
+        "image": "images/menu/veggie-delight.png"
+      },
+      {
+        "name": "Pepperoni Feast",
+        "price": "$10.34",
+        "description": "Pepperoni, cheese, oregano",
+        "image": "images/menu/pepperoni-feast.png"
+      },
+      {
+        "name": "BBQ Chicken",
+        "price": "$8.0",
+        "description": "Chicken, BBQ sauce, red onions",
+        "image": "images/menu/bbq-chicken.png"
+      },
+      {
+        "name": "Margherita",
+        "price": "$7.83",
+        "description": "Tomato sauce, mozzarella, basil",
+        "image": "images/menu/margherita.png"
+      }
+    ]
   },
   {
     "name": "Cheezy Crust Co.",
     "category": "Pizza, Stuffed Crust",
     "image": "images/cheezycrust.png",
     "rating": 4.3,
-    "time": "45–60 min",
-    "price": "$1.25"
+    "time": "45-60 min",
+    "price": "$1.25",
+    "menu": [
+      {
+        "name": "Veggie Delight",
+        "price": "$3.99",
+        "description": "Bell peppers, onions, mushrooms",
+        "image": "images/menu/veggie-delight.png"
+      },
+      {
+        "name": "Pepperoni Feast",
+        "price": "$7.41",
+        "description": "Pepperoni, cheese, oregano",
+        "image": "images/menu/pepperoni-feast.png"
+      },
+      {
+        "name": "BBQ Chicken",
+        "price": "$5.29",
+        "description": "Chicken, BBQ sauce, red onions",
+        "image": "images/menu/bbq-chicken.png"
+      },
+      {
+        "name": "Margherita",
+        "price": "$7.93",
+        "description": "Tomato sauce, mozzarella, basil",
+        "image": "images/menu/margherita.png"
+      },
+      {
+        "name": "Four Cheese",
+        "price": "$3.85",
+        "description": "Mozzarella, parmesan, cheddar, gorgonzola",
+        "image": "images/menu/four-cheese.png"
+      }
+    ]
   },
   {
     "name": "Firebrick Pizza",
     "category": "Pizza, Thin Crust",
     "image": "images/firebrick.png",
     "rating": 4.4,
-    "time": "40–55 min",
-    "price": "Free"
+    "time": "40-55 min",
+    "price": "Free",
+    "menu": [
+      {
+        "name": "Pepperoni Feast",
+        "price": "$5.01",
+        "description": "Pepperoni, cheese, oregano",
+        "image": "images/menu/pepperoni-feast.png"
+      },
+      {
+        "name": "BBQ Chicken",
+        "price": "$10.13",
+        "description": "Chicken, BBQ sauce, red onions",
+        "image": "images/menu/bbq-chicken.png"
+      },
+      {
+        "name": "Veggie Delight",
+        "price": "$6.73",
+        "description": "Bell peppers, onions, mushrooms",
+        "image": "images/menu/veggie-delight.png"
+      },
+      {
+        "name": "Margherita",
+        "price": "$10.24",
+        "description": "Tomato sauce, mozzarella, basil",
+        "image": "images/menu/margherita.png"
+      },
+      {
+        "name": "Four Cheese",
+        "price": "$11.24",
+        "description": "Mozzarella, parmesan, cheddar, gorgonzola",
+        "image": "images/menu/four-cheese.png"
+      }
+    ]
   },
   {
     "name": "Burger Vault",
     "category": "Fast Food, Burgers",
     "image": "images/burgervault.png",
     "rating": 4.5,
-    "time": "30–40 min",
-    "price": "$1.00"
+    "time": "30-40 min",
+    "price": "$1.00",
+    "menu": [
+      {
+        "name": "Sliders Trio",
+        "price": "$3.72",
+        "description": "Mini burgers with cheese & pickles",
+        "image": "images/menu/sliders-trio.png"
+      },
+      {
+        "name": "Crispy Fries",
+        "price": "$5.52",
+        "description": "Golden and crispy potato fries",
+        "image": "images/menu/crispy-fries.png"
+      },
+      {
+        "name": "Chicken Wrap",
+        "price": "$4.07",
+        "description": "Grilled chicken, lettuce, sauce",
+        "image": "images/menu/chicken-wrap.png"
+      },
+      {
+        "name": "Classic Burger",
+        "price": "$4.0",
+        "description": "Beef patty, cheese, lettuce, tomato",
+        "image": "images/menu/classic-burger.png"
+      },
+      {
+        "name": "Club Sandwich",
+        "price": "$7.34",
+        "description": "Chicken, mayo, lettuce, tomato",
+        "image": "images/menu/club-sandwich.png"
+      }
+    ]
   },
   {
-    "name": "Fryday’s",
+    "name": "Fryday\u2019s",
     "category": "Fast Food, Fries",
     "image": "images/frydays.png",
     "rating": 4.3,
-    "time": "20–35 min",
-    "price": "Free"
+    "time": "20-35 min",
+    "price": "Free",
+    "menu": [
+      {
+        "name": "Sliders Trio",
+        "price": "$11.89",
+        "description": "Mini burgers with cheese & pickles",
+        "image": "images/menu/sliders-trio.png"
+      },
+      {
+        "name": "Classic Burger",
+        "price": "$4.71",
+        "description": "Beef patty, cheese, lettuce, tomato",
+        "image": "images/menu/classic-burger.png"
+      },
+      {
+        "name": "Club Sandwich",
+        "price": "$3.97",
+        "description": "Chicken, mayo, lettuce, tomato",
+        "image": "images/menu/club-sandwich.png"
+      },
+      {
+        "name": "Chicken Wrap",
+        "price": "$11.88",
+        "description": "Grilled chicken, lettuce, sauce",
+        "image": "images/menu/chicken-wrap.png"
+      },
+      {
+        "name": "Crispy Fries",
+        "price": "$10.55",
+        "description": "Golden and crispy potato fries",
+        "image": "images/menu/crispy-fries.png"
+      }
+    ]
   },
   {
     "name": "Crunch Bite",
     "category": "Fast Food, Chicken",
     "image": "images/crunchbite.png",
     "rating": 4.6,
-    "time": "25–45 min",
-    "price": "$0.99"
+    "time": "25-45 min",
+    "price": "$0.99",
+    "menu": [
+      {
+        "name": "Classic Burger",
+        "price": "$6.52",
+        "description": "Beef patty, cheese, lettuce, tomato",
+        "image": "images/menu/classic-burger.png"
+      },
+      {
+        "name": "Sliders Trio",
+        "price": "$6.74",
+        "description": "Mini burgers with cheese & pickles",
+        "image": "images/menu/sliders-trio.png"
+      },
+      {
+        "name": "Chicken Wrap",
+        "price": "$10.05",
+        "description": "Grilled chicken, lettuce, sauce",
+        "image": "images/menu/chicken-wrap.png"
+      },
+      {
+        "name": "Club Sandwich",
+        "price": "$8.4",
+        "description": "Chicken, mayo, lettuce, tomato",
+        "image": "images/menu/club-sandwich.png"
+      },
+      {
+        "name": "Crispy Fries",
+        "price": "$11.0",
+        "description": "Golden and crispy potato fries",
+        "image": "images/menu/crispy-fries.png"
+      }
+    ]
   },
   {
-    "name": "Wrap N’ Roll",
+    "name": "Wrap N\u2019 Roll",
     "category": "Fast Food, Wraps",
     "image": "images/wrapnroll.png",
     "rating": 4.4,
-    "time": "30–50 min",
-    "price": "Free"
+    "time": "30-50 min",
+    "price": "Free",
+    "menu": [
+      {
+        "name": "Crispy Fries",
+        "price": "$11.38",
+        "description": "Golden and crispy potato fries",
+        "image": "images/menu/crispy-fries.png"
+      },
+      {
+        "name": "Sliders Trio",
+        "price": "$11.82",
+        "description": "Mini burgers with cheese & pickles",
+        "image": "images/menu/sliders-trio.png"
+      },
+      {
+        "name": "Chicken Wrap",
+        "price": "$11.4",
+        "description": "Grilled chicken, lettuce, sauce",
+        "image": "images/menu/chicken-wrap.png"
+      },
+      {
+        "name": "Classic Burger",
+        "price": "$7.82",
+        "description": "Beef patty, cheese, lettuce, tomato",
+        "image": "images/menu/classic-burger.png"
+      },
+      {
+        "name": "Club Sandwich",
+        "price": "$7.58",
+        "description": "Chicken, mayo, lettuce, tomato",
+        "image": "images/menu/club-sandwich.png"
+      }
+    ]
   },
   {
     "name": "Drive-Thru Deli",
     "category": "Fast Food, Sandwiches",
     "image": "images/drivethrudeli.png",
     "rating": 4.1,
-    "time": "35–55 min",
-    "price": "$1.25"
+    "time": "35-55 min",
+    "price": "$1.25",
+    "menu": [
+      {
+        "name": "Crispy Fries",
+        "price": "$6.88",
+        "description": "Golden and crispy potato fries",
+        "image": "images/menu/crispy-fries.png"
+      },
+      {
+        "name": "Chicken Wrap",
+        "price": "$9.86",
+        "description": "Grilled chicken, lettuce, sauce",
+        "image": "images/menu/chicken-wrap.png"
+      },
+      {
+        "name": "Sliders Trio",
+        "price": "$9.17",
+        "description": "Mini burgers with cheese & pickles",
+        "image": "images/menu/sliders-trio.png"
+      },
+      {
+        "name": "Club Sandwich",
+        "price": "$5.49",
+        "description": "Chicken, mayo, lettuce, tomato",
+        "image": "images/menu/club-sandwich.png"
+      },
+      {
+        "name": "Classic Burger",
+        "price": "$10.82",
+        "description": "Beef patty, cheese, lettuce, tomato",
+        "image": "images/menu/classic-burger.png"
+      }
+    ]
   },
   {
     "name": "Speedy Buns",
     "category": "Fast Food, Sliders",
     "image": "images/speedybuns.png",
     "rating": 4.2,
-    "time": "30–40 min",
-    "price": "$0.75"
-  },
-  {
-    "name": "BiteBuzz",
-    "category": "Fast Food, Quick Meals",
-    "image": "images/bitebuzz.png",
-    "rating": 4.0,
-    "time": "25–35 min",
-    "price": "$1.00"
-  },
-  {
-    "name": "Snackbox Joint",
-    "category": "Fast Food, Variety",
-    "image": "images/snackbox.png",
-    "rating": 4.3,
-    "time": "20–30 min",
-    "price": "Free"
+    "time": "30-40 min",
+    "price": "$0.75",
+    "menu": [
+      {
+        "name": "Club Sandwich",
+        "price": "$7.48",
+        "description": "Chicken, mayo, lettuce, tomato",
+        "image": "images/menu/club-sandwich.png"
+      },
+      {
+        "name": "Crispy Fries",
+        "price": "$10.09",
+        "description": "Golden and crispy potato fries",
+        "image": "images/menu/crispy-fries.png"
+      },
+      {
+        "name": "Sliders Trio",
+        "price": "$4.29",
+        "description": "Mini burgers with cheese & pickles",
+        "image": "images/menu/sliders-trio.png"
+      },
+      {
+        "name": "Chicken Wrap",
+        "price": "$8.01",
+        "description": "Grilled chicken, lettuce, sauce",
+        "image": "images/menu/chicken-wrap.png"
+      },
+      {
+        "name": "Classic Burger",
+        "price": "$7.47",
+        "description": "Beef patty, cheese, lettuce, tomato",
+        "image": "images/menu/classic-burger.png"
+      }
+    ]
   },
   {
     "name": "Tandoori Trails",
     "category": "Desi, Pakistani",
     "image": "images/tandooritrails.png",
     "rating": 4.7,
-    "time": "40–60 min",
-    "price": "$1.50"
+    "time": "40-60 min",
+    "price": "$1.50",
+    "menu": [
+      {
+        "name": "Butter Chicken",
+        "price": "$9.1",
+        "description": "Creamy tomato chicken curry",
+        "image": "images/menu/butter-chicken.png"
+      },
+      {
+        "name": "Aloo Paratha",
+        "price": "$11.17",
+        "description": "Stuffed flatbread with potato",
+        "image": "images/menu/aloo-paratha.png"
+      },
+      {
+        "name": "Chana Chaat",
+        "price": "$6.43",
+        "description": "Spicy chickpea salad",
+        "image": "images/menu/chana-chaat.png"
+      },
+      {
+        "name": "Paneer Tikka",
+        "price": "$5.18",
+        "description": "Grilled paneer cubes in spices",
+        "image": "images/menu/paneer-tikka.png"
+      },
+      {
+        "name": "Chicken Biryani",
+        "price": "$7.73",
+        "description": "Spiced chicken, basmati rice, herbs",
+        "image": "images/menu/chicken-biryani.png"
+      }
+    ]
   },
   {
     "name": "Zaika Junction",
     "category": "Desi, Indian",
     "image": "images/zaikajunction.png",
     "rating": 4.5,
-    "time": "35–50 min",
-    "price": "Free"
+    "time": "35-50 min",
+    "price": "Free",
+    "menu": [
+      {
+        "name": "Chana Chaat",
+        "price": "$5.61",
+        "description": "Spicy chickpea salad",
+        "image": "images/menu/chana-chaat.png"
+      },
+      {
+        "name": "Chicken Biryani",
+        "price": "$11.6",
+        "description": "Spiced chicken, basmati rice, herbs",
+        "image": "images/menu/chicken-biryani.png"
+      },
+      {
+        "name": "Aloo Paratha",
+        "price": "$8.96",
+        "description": "Stuffed flatbread with potato",
+        "image": "images/menu/aloo-paratha.png"
+      },
+      {
+        "name": "Paneer Tikka",
+        "price": "$5.34",
+        "description": "Grilled paneer cubes in spices",
+        "image": "images/menu/paneer-tikka.png"
+      },
+      {
+        "name": "Butter Chicken",
+        "price": "$4.56",
+        "description": "Creamy tomato chicken curry",
+        "image": "images/menu/butter-chicken.png"
+      }
+    ]
   },
   {
-    "name": "Karachi Curry Co.",
+    "name": "Karachi Curry",
     "category": "Desi, Pakistani",
     "image": "images/karachicurry.png",
     "rating": 4.6,
-    "time": "45–65 min",
-    "price": "$1.00"
-  },
-  {
-    "name": "Masala Masala",
-    "category": "Desi, Indian",
-    "image": "images/masalamasala.png",
-    "rating": 4.3,
-    "time": "30–45 min",
-    "price": "$0.99"
+    "time": "45-65 min",
+    "price": "$1.00",
+    "menu": [
+      {
+        "name": "Chicken Biryani",
+        "price": "$9.58",
+        "description": "Spiced chicken, basmati rice, herbs",
+        "image": "images/menu/chicken-biryani.png"
+      },
+      {
+        "name": "Paneer Tikka",
+        "price": "$6.0",
+        "description": "Grilled paneer cubes in spices",
+        "image": "images/menu/paneer-tikka.png"
+      },
+      {
+        "name": "Chana Chaat",
+        "price": "$7.57",
+        "description": "Spicy chickpea salad",
+        "image": "images/menu/chana-chaat.png"
+      },
+      {
+        "name": "Aloo Paratha",
+        "price": "$7.1",
+        "description": "Stuffed flatbread with potato",
+        "image": "images/menu/aloo-paratha.png"
+      },
+      {
+        "name": "Butter Chicken",
+        "price": "$5.91",
+        "description": "Creamy tomato chicken curry",
+        "image": "images/menu/butter-chicken.png"
+      }
+    ]
   },
   {
     "name": "The Biryani Cart",
     "category": "Desi, Biryani",
     "image": "images/biryanicart.png",
     "rating": 4.8,
-    "time": "40–55 min",
-    "price": "$1.75"
+    "time": "40-55 min",
+    "price": "$1.75",
+    "menu": [
+      {
+        "name": "Paneer Tikka",
+        "price": "$5.06",
+        "description": "Grilled paneer cubes in spices",
+        "image": "images/menu/paneer-tikka.png"
+      },
+      {
+        "name": "Aloo Paratha",
+        "price": "$11.42",
+        "description": "Stuffed flatbread with potato",
+        "image": "images/menu/aloo-paratha.png"
+      },
+      {
+        "name": "Butter Chicken",
+        "price": "$9.25",
+        "description": "Creamy tomato chicken curry",
+        "image": "images/menu/butter-chicken.png"
+      },
+      {
+        "name": "Chicken Biryani",
+        "price": "$5.47",
+        "description": "Spiced chicken, basmati rice, herbs",
+        "image": "images/menu/chicken-biryani.png"
+      },
+      {
+        "name": "Chana Chaat",
+        "price": "$3.91",
+        "description": "Spicy chickpea salad",
+        "image": "images/menu/chana-chaat.png"
+      }
+    ]
   },
   {
     "name": "Roti Riwaayat",
     "category": "Desi, Traditional",
     "image": "images/rotiriwaayat.png",
     "rating": 4.2,
-    "time": "35–50 min",
-    "price": "Free"
-  },
-  {
-    "name": "Curry Leaf Express",
-    "category": "Desi, Quick Service",
-    "image": "images/curryleaf.png",
-    "rating": 4.4,
-    "time": "30–40 min",
-    "price": "$1.25"
+    "time": "35-50 min",
+    "price": "Free",
+    "menu": [
+      {
+        "name": "Paneer Tikka",
+        "price": "$10.71",
+        "description": "Grilled paneer cubes in spices",
+        "image": "images/menu/paneer-tikka.png"
+      },
+      {
+        "name": "Chicken Biryani",
+        "price": "$6.82",
+        "description": "Spiced chicken, basmati rice, herbs",
+        "image": "images/menu/chicken-biryani.png"
+      },
+      {
+        "name": "Aloo Paratha",
+        "price": "$4.96",
+        "description": "Stuffed flatbread with potato",
+        "image": "images/menu/aloo-paratha.png"
+      },
+      {
+        "name": "Butter Chicken",
+        "price": "$6.3",
+        "description": "Creamy tomato chicken curry",
+        "image": "images/menu/butter-chicken.png"
+      },
+      {
+        "name": "Chana Chaat",
+        "price": "$11.55",
+        "description": "Spicy chickpea salad",
+        "image": "images/menu/chana-chaat.png"
+      }
+    ]
   },
   {
     "name": "Lahori Zaiqa",
     "category": "Desi, Street Style",
     "image": "images/lahorizaiqa.png",
     "rating": 4.6,
-    "time": "40–60 min",
-    "price": "$0.75"
+    "time": "40-60 min",
+    "price": "$0.75",
+    "menu": [
+      {
+        "name": "Butter Chicken",
+        "price": "$5.0",
+        "description": "Creamy tomato chicken curry",
+        "image": "images/menu/butter-chicken.png"
+      },
+      {
+        "name": "Aloo Paratha",
+        "price": "$5.22",
+        "description": "Stuffed flatbread with potato",
+        "image": "images/menu/aloo-paratha.png"
+      },
+      {
+        "name": "Paneer Tikka",
+        "price": "$3.71",
+        "description": "Grilled paneer cubes in spices",
+        "image": "images/menu/paneer-tikka.png"
+      },
+      {
+        "name": "Chicken Biryani",
+        "price": "$9.68",
+        "description": "Spiced chicken, basmati rice, herbs",
+        "image": "images/menu/chicken-biryani.png"
+      },
+      {
+        "name": "Chana Chaat",
+        "price": "$4.63",
+        "description": "Spicy chickpea salad",
+        "image": "images/menu/chana-chaat.png"
+      }
+    ]
   },
   {
     "name": "Sugar Dust",
     "category": "Dessert, Cakes",
     "image": "images/sugardust.png",
     "rating": 4.8,
-    "time": "25–35 min",
-    "price": "$1.00"
+    "time": "25-35 min",
+    "price": "$1.00",
+    "menu": [
+      {
+        "name": "Fruit FroYo",
+        "price": "$8.5",
+        "description": "Frozen yogurt with fruit toppings",
+        "image": "images/menu/fruit-froyo.png"
+      },
+      {
+        "name": "Mini Donuts",
+        "price": "$11.76",
+        "description": "Bite-sized sugar donuts",
+        "image": "images/menu/mini-donuts.png"
+      },
+      {
+        "name": "Vanilla Ice Cream",
+        "price": "$4.41",
+        "description": "Classic vanilla scoop",
+        "image": "images/menu/vanilla-ice-cream.png"
+      },
+      {
+        "name": "Brownie Sundae",
+        "price": "$9.03",
+        "description": "Brownie, ice cream, chocolate syrup",
+        "image": "images/menu/brownie-sundae.png"
+      },
+      {
+        "name": "Chocolate Lava Cake",
+        "price": "$4.71",
+        "description": "Warm cake with molten center",
+        "image": "images/menu/chocolate-lava-cake.png"
+      }
+    ]
   },
   {
     "name": "Whip & Dip",
     "category": "Dessert, Ice Cream",
     "image": "images/whipdip.png",
     "rating": 4.6,
-    "time": "20–30 min",
-    "price": "Free"
-  },
-  {
-    "name": "Bite Me Bakery",
-    "category": "Dessert, Brownies",
-    "image": "images/biteme.png",
-    "rating": 4.5,
-    "time": "30–45 min",
-    "price": "$1.25"
+    "time": "20-30 min",
+    "price": "Free",
+    "menu": [
+      {
+        "name": "Chocolate Lava Cake",
+        "price": "$9.46",
+        "description": "Warm cake with molten center",
+        "image": "images/menu/chocolate-lava-cake.png"
+      },
+      {
+        "name": "Brownie Sundae",
+        "price": "$5.81",
+        "description": "Brownie, ice cream, chocolate syrup",
+        "image": "images/menu/brownie-sundae.png"
+      },
+      {
+        "name": "Fruit FroYo",
+        "price": "$5.71",
+        "description": "Frozen yogurt with fruit toppings",
+        "image": "images/menu/fruit-froyo.png"
+      },
+      {
+        "name": "Mini Donuts",
+        "price": "$8.73",
+        "description": "Bite-sized sugar donuts",
+        "image": "images/menu/mini-donuts.png"
+      },
+      {
+        "name": "Vanilla Ice Cream",
+        "price": "$4.15",
+        "description": "Classic vanilla scoop",
+        "image": "images/menu/vanilla-ice-cream.png"
+      }
+    ]
   },
   {
     "name": "Choco Loco",
     "category": "Dessert, Chocolate",
     "image": "images/chocoloco.png",
     "rating": 4.4,
-    "time": "20–35 min",
-    "price": "$0.99"
-  },
-  {
-    "name": "Flan Factory",
-    "category": "Dessert, Custards",
-    "image": "images/flanfactory.png",
-    "rating": 4.3,
-    "time": "30–40 min",
-    "price": "$1.50"
+    "time": "20-35 min",
+    "price": "$0.99",
+    "menu": [
+      {
+        "name": "Brownie Sundae",
+        "price": "$7.14",
+        "description": "Brownie, ice cream, chocolate syrup",
+        "image": "images/menu/brownie-sundae.png"
+      },
+      {
+        "name": "Mini Donuts",
+        "price": "$6.56",
+        "description": "Bite-sized sugar donuts",
+        "image": "images/menu/mini-donuts.png"
+      },
+      {
+        "name": "Fruit FroYo",
+        "price": "$6.33",
+        "description": "Frozen yogurt with fruit toppings",
+        "image": "images/menu/fruit-froyo.png"
+      },
+      {
+        "name": "Chocolate Lava Cake",
+        "price": "$8.44",
+        "description": "Warm cake with molten center",
+        "image": "images/menu/chocolate-lava-cake.png"
+      },
+      {
+        "name": "Vanilla Ice Cream",
+        "price": "$11.27",
+        "description": "Classic vanilla scoop",
+        "image": "images/menu/vanilla-ice-cream.png"
+      }
+    ]
   },
   {
     "name": "Frozen Whisk",
     "category": "Dessert, FroYo",
     "image": "images/frozenwhisk.png",
     "rating": 4.2,
-    "time": "25–35 min",
-    "price": "Free"
+    "time": "25-35 min",
+    "price": "Free",
+    "menu": [
+      {
+        "name": "Mini Donuts",
+        "price": "$8.64",
+        "description": "Bite-sized sugar donuts",
+        "image": "images/menu/mini-donuts.png"
+      },
+      {
+        "name": "Brownie Sundae",
+        "price": "$6.19",
+        "description": "Brownie, ice cream, chocolate syrup",
+        "image": "images/menu/brownie-sundae.png"
+      },
+      {
+        "name": "Vanilla Ice Cream",
+        "price": "$7.5",
+        "description": "Classic vanilla scoop",
+        "image": "images/menu/vanilla-ice-cream.png"
+      },
+      {
+        "name": "Fruit FroYo",
+        "price": "$3.97",
+        "description": "Frozen yogurt with fruit toppings",
+        "image": "images/menu/fruit-froyo.png"
+      },
+      {
+        "name": "Chocolate Lava Cake",
+        "price": "$6.09",
+        "description": "Warm cake with molten center",
+        "image": "images/menu/chocolate-lava-cake.png"
+      }
+    ]
   },
   {
     "name": "Bliss Bites",
     "category": "Dessert, Mini Treats",
     "image": "images/blissbites.png",
     "rating": 4.6,
-    "time": "20–30 min",
-    "price": "$1.00"
+    "time": "20-30 min",
+    "price": "$1.00",
+    "menu": [
+      {
+        "name": "Fruit FroYo",
+        "price": "$6.69",
+        "description": "Frozen yogurt with fruit toppings",
+        "image": "images/menu/fruit-froyo.png"
+      },
+      {
+        "name": "Vanilla Ice Cream",
+        "price": "$8.44",
+        "description": "Classic vanilla scoop",
+        "image": "images/menu/vanilla-ice-cream.png"
+      },
+      {
+        "name": "Brownie Sundae",
+        "price": "$4.81",
+        "description": "Brownie, ice cream, chocolate syrup",
+        "image": "images/menu/brownie-sundae.png"
+      },
+      {
+        "name": "Chocolate Lava Cake",
+        "price": "$4.5",
+        "description": "Warm cake with molten center",
+        "image": "images/menu/chocolate-lava-cake.png"
+      },
+      {
+        "name": "Mini Donuts",
+        "price": "$5.11",
+        "description": "Bite-sized sugar donuts",
+        "image": "images/menu/mini-donuts.png"
+      }
+    ]
   },
   {
     "name": "Gelato Grove",
     "category": "Dessert, Gelato",
     "image": "images/gelatogrove.png",
     "rating": 4.7,
-    "time": "15–25 min",
-    "price": "$1.25"
+    "time": "15-25 min",
+    "price": "$1.25",
+    "menu": [
+      {
+        "name": "Vanilla Ice Cream",
+        "price": "$6.29",
+        "description": "Classic vanilla scoop",
+        "image": "images/menu/vanilla-ice-cream.png"
+      },
+      {
+        "name": "Fruit FroYo",
+        "price": "$9.98",
+        "description": "Frozen yogurt with fruit toppings",
+        "image": "images/menu/fruit-froyo.png"
+      },
+      {
+        "name": "Mini Donuts",
+        "price": "$8.94",
+        "description": "Bite-sized sugar donuts",
+        "image": "images/menu/mini-donuts.png"
+      },
+      {
+        "name": "Brownie Sundae",
+        "price": "$10.38",
+        "description": "Brownie, ice cream, chocolate syrup",
+        "image": "images/menu/brownie-sundae.png"
+      },
+      {
+        "name": "Chocolate Lava Cake",
+        "price": "$11.71",
+        "description": "Warm cake with molten center",
+        "image": "images/menu/chocolate-lava-cake.png"
+      }
+    ]
   }
 ]
