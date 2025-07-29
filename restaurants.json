@@ -1,0 +1,378 @@
+[
+  {
+    "name": "Yamato Sushi",
+    "category": "Sushi, Asian",
+    "image": "images/yamato.png",
+    "rating": 4.7,
+    "time": "45–65 min",
+    "price": "Free"
+  },
+  {
+    "name": "Katsu Sushi",
+    "category": "Sushi, Japanese",
+    "image": "images/katsu.png",
+    "rating": 4.6,
+    "time": "60–75 min",
+    "price": "$1.50"
+  },
+  {
+    "name": "Shimizu Rolls",
+    "category": "Sushi, Japanese",
+    "image": "images/shimizu.png",
+    "rating": 4.5,
+    "time": "30–45 min",
+    "price": "Free"
+  },
+  {
+    "name": "Tokyo Maki House",
+    "category": "Sushi, Fast Casual",
+    "image": "images/tokyomaki.png",
+    "rating": 4.2,
+    "time": "35–50 min",
+    "price": "$1.25"
+  },
+  {
+    "name": "Sakana Lane",
+    "category": "Sushi, Bento",
+    "image": "images/sakana.png",
+    "rating": 4.6,
+    "time": "40–60 min",
+    "price": "$0.99"
+  },
+  {
+    "name": "Nori Republic",
+    "category": "Sushi, Vegetarian",
+    "image": "images/nori.png",
+    "rating": 4.9,
+    "time": "50–65 min",
+    "price": "Free"
+  },
+  {
+    "name": "Miso & Maki",
+    "category": "Sushi, Ramen",
+    "image": "images/misomaki.png",
+    "rating": 4.5,
+    "time": "45–55 min",
+    "price": "$1.75"
+  },
+  {
+    "name": "Sunny Side Café",
+    "category": "Breakfast, American",
+    "image": "images/sunnyside.png",
+    "rating": 4.6,
+    "time": "30–45 min",
+    "price": "Free"
+  },
+  {
+    "name": "Morning Crumbs",
+    "category": "Breakfast, Bakery",
+    "image": "images/morningcrumbs.png",
+    "rating": 4.8,
+    "time": "25–35 min",
+    "price": "$1.00"
+  },
+  {
+    "name": "Toast & Co.",
+    "category": "Breakfast, Toast Bar",
+    "image": "images/toastco.png",
+    "rating": 4.4,
+    "time": "20–30 min",
+    "price": "Free"
+  },
+  {
+    "name": "The Egg Cellent Spot",
+    "category": "Breakfast, Omelettes",
+    "image": "images/eggcellent.png",
+    "rating": 4.7,
+    "time": "35–50 min",
+    "price": "$0.99"
+  },
+  {
+    "name": "Brew & Bite",
+    "category": "Breakfast, Coffee",
+    "image": "images/brewbite.png",
+    "rating": 4.3,
+    "time": "25–40 min",
+    "price": "Free"
+  },
+  {
+    "name": "Pancake Cabin",
+    "category": "Breakfast, Pancakes",
+    "image": "images/pancakecabin.png",
+    "rating": 4.6,
+    "time": "30–45 min",
+    "price": "$1.25"
+  },
+  {
+    "name": "Rise & Dine",
+    "category": "Breakfast, Diner",
+    "image": "images/risendine.png",
+    "rating": 4.5,
+    "time": "40–60 min",
+    "price": "$1.50"
+  },
+  {
+    "name": "Avocado Junction",
+    "category": "Breakfast, Healthy",
+    "image": "images/avocadojunction.png",
+    "rating": 4.4,
+    "time": "20–35 min",
+    "price": "Free"
+  },
+  {
+    "name": "Muffin Mill",
+    "category": "Breakfast, Pastries",
+    "image": "images/muffinmill.png",
+    "rating": 4.2,
+    "time": "25–40 min",
+    "price": "$0.75"
+  },
+  {
+    "name": "The Brunch Box",
+    "category": "Breakfast, All Day",
+    "image": "images/brunchbox.png",
+    "rating": 4.9,
+    "time": "35–55 min",
+    "price": "$1.00"
+  },
+  {
+    "name": "Dough Bros",
+    "category": "Pizza, Italian",
+    "image": "images/doughbros.png",
+    "rating": 4.6,
+    "time": "40–55 min",
+    "price": "$1.00"
+  },
+  {
+    "name": "Pizza Palette",
+    "category": "Pizza, Artisanal",
+    "image": "images/pizzapalette.png",
+    "rating": 4.5,
+    "time": "30–45 min",
+    "price": "Free"
+  },
+  {
+    "name": "Slice & Rise",
+    "category": "Pizza, Classic",
+    "image": "images/sliceandrise.png",
+    "rating": 4.2,
+    "time": "35–50 min",
+    "price": "$0.99"
+  },
+  {
+    "name": "Napoli Express",
+    "category": "Pizza, Wood-fired",
+    "image": "images/napoliexpress.png",
+    "rating": 4.7,
+    "time": "50–65 min",
+    "price": "$1.50"
+  },
+  {
+    "name": "Cheezy Crust Co.",
+    "category": "Pizza, Stuffed Crust",
+    "image": "images/cheezycrust.png",
+    "rating": 4.3,
+    "time": "45–60 min",
+    "price": "$1.25"
+  },
+  {
+    "name": "Firebrick Pizza",
+    "category": "Pizza, Thin Crust",
+    "image": "images/firebrick.png",
+    "rating": 4.4,
+    "time": "40–55 min",
+    "price": "Free"
+  },
+  {
+    "name": "Burger Vault",
+    "category": "Fast Food, Burgers",
+    "image": "images/burgervault.png",
+    "rating": 4.5,
+    "time": "30–40 min",
+    "price": "$1.00"
+  },
+  {
+    "name": "Fryday’s",
+    "category": "Fast Food, Fries",
+    "image": "images/frydays.png",
+    "rating": 4.3,
+    "time": "20–35 min",
+    "price": "Free"
+  },
+  {
+    "name": "Crunch Bite",
+    "category": "Fast Food, Chicken",
+    "image": "images/crunchbite.png",
+    "rating": 4.6,
+    "time": "25–45 min",
+    "price": "$0.99"
+  },
+  {
+    "name": "Wrap N’ Roll",
+    "category": "Fast Food, Wraps",
+    "image": "images/wrapnroll.png",
+    "rating": 4.4,
+    "time": "30–50 min",
+    "price": "Free"
+  },
+  {
+    "name": "Drive-Thru Deli",
+    "category": "Fast Food, Sandwiches",
+    "image": "images/drivethrudeli.png",
+    "rating": 4.1,
+    "time": "35–55 min",
+    "price": "$1.25"
+  },
+  {
+    "name": "Speedy Buns",
+    "category": "Fast Food, Sliders",
+    "image": "images/speedybuns.png",
+    "rating": 4.2,
+    "time": "30–40 min",
+    "price": "$0.75"
+  },
+  {
+    "name": "BiteBuzz",
+    "category": "Fast Food, Quick Meals",
+    "image": "images/bitebuzz.png",
+    "rating": 4.0,
+    "time": "25–35 min",
+    "price": "$1.00"
+  },
+  {
+    "name": "Snackbox Joint",
+    "category": "Fast Food, Variety",
+    "image": "images/snackbox.png",
+    "rating": 4.3,
+    "time": "20–30 min",
+    "price": "Free"
+  },
+  {
+    "name": "Tandoori Trails",
+    "category": "Desi, Pakistani",
+    "image": "images/tandooritrails.png",
+    "rating": 4.7,
+    "time": "40–60 min",
+    "price": "$1.50"
+  },
+  {
+    "name": "Zaika Junction",
+    "category": "Desi, Indian",
+    "image": "images/zaikajunction.png",
+    "rating": 4.5,
+    "time": "35–50 min",
+    "price": "Free"
+  },
+  {
+    "name": "Karachi Curry Co.",
+    "category": "Desi, Pakistani",
+    "image": "images/karachicurry.png",
+    "rating": 4.6,
+    "time": "45–65 min",
+    "price": "$1.00"
+  },
+  {
+    "name": "Masala Masala",
+    "category": "Desi, Indian",
+    "image": "images/masalamasala.png",
+    "rating": 4.3,
+    "time": "30–45 min",
+    "price": "$0.99"
+  },
+  {
+    "name": "The Biryani Cart",
+    "category": "Desi, Biryani",
+    "image": "images/biryanicart.png",
+    "rating": 4.8,
+    "time": "40–55 min",
+    "price": "$1.75"
+  },
+  {
+    "name": "Roti Riwaayat",
+    "category": "Desi, Traditional",
+    "image": "images/rotiriwaayat.png",
+    "rating": 4.2,
+    "time": "35–50 min",
+    "price": "Free"
+  },
+  {
+    "name": "Curry Leaf Express",
+    "category": "Desi, Quick Service",
+    "image": "images/curryleaf.png",
+    "rating": 4.4,
+    "time": "30–40 min",
+    "price": "$1.25"
+  },
+  {
+    "name": "Lahori Zaiqa",
+    "category": "Desi, Street Style",
+    "image": "images/lahorizaiqa.png",
+    "rating": 4.6,
+    "time": "40–60 min",
+    "price": "$0.75"
+  },
+  {
+    "name": "Sugar Dust",
+    "category": "Dessert, Cakes",
+    "image": "images/sugardust.png",
+    "rating": 4.8,
+    "time": "25–35 min",
+    "price": "$1.00"
+  },
+  {
+    "name": "Whip & Dip",
+    "category": "Dessert, Ice Cream",
+    "image": "images/whipdip.png",
+    "rating": 4.6,
+    "time": "20–30 min",
+    "price": "Free"
+  },
+  {
+    "name": "Bite Me Bakery",
+    "category": "Dessert, Brownies",
+    "image": "images/biteme.png",
+    "rating": 4.5,
+    "time": "30–45 min",
+    "price": "$1.25"
+  },
+  {
+    "name": "Choco Loco",
+    "category": "Dessert, Chocolate",
+    "image": "images/chocoloco.png",
+    "rating": 4.4,
+    "time": "20–35 min",
+    "price": "$0.99"
+  },
+  {
+    "name": "Flan Factory",
+    "category": "Dessert, Custards",
+    "image": "images/flanfactory.png",
+    "rating": 4.3,
+    "time": "30–40 min",
+    "price": "$1.50"
+  },
+  {
+    "name": "Frozen Whisk",
+    "category": "Dessert, FroYo",
+    "image": "images/frozenwhisk.png",
+    "rating": 4.2,
+    "time": "25–35 min",
+    "price": "Free"
+  },
+  {
+    "name": "Bliss Bites",
+    "category": "Dessert, Mini Treats",
+    "image": "images/blissbites.png",
+    "rating": 4.6,
+    "time": "20–30 min",
+    "price": "$1.00"
+  },
+  {
+    "name": "Gelato Grove",
+    "category": "Dessert, Gelato",
+    "image": "images/gelatogrove.png",
+    "rating": 4.7,
+    "time": "15–25 min",
+    "price": "$1.25"
+  }
+]
