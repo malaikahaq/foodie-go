@@ -463,7 +463,7 @@ body {
   grid-template-areas:
     "nav"
     "rest-main"
-    "footer";
+    "rest-footer";
 }
 .rest-main-container {
   grid-area: rest-main;
@@ -479,4 +479,64 @@ body {
   margin: 0 95px;
   background-color: #f8f8f8;
   border-radius: 20px;
+}
+.rest-footer-container {
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+  color: white;
+  font-size: 14px;
+  padding: 15px 0;
+  grid-area: rest-footer;
+}
+.rest-header-name h2 {
+  margin-bottom: 5px;
+}
+
+.rest-header-name p {
+  color: #666;
+  margin: 0;
+}
+
+.rest-deets p {
+  font-size: 14px;
+  color: #555;
+  margin: 0;
+}
+.hidden {
+  display: none;
+}
+#cartOverlay {
+  position: fixed;
+  top: 92px;
+  right: 135.6px;
+  width: 370px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+#confirmationDialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  z-index: 2000;
+}
+#confirmText {
+  margin-bottom: 15px;
+}
+.menu-item {
+  margin-bottom: 20px;
+}
+.bar {
+  width: cover;
+  height: 2px;
+  background-color: #000000;
 }
