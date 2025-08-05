@@ -14,13 +14,106 @@
     <div id="index-parent-container">
       <div id="index-main-nav-container">
         <nav id="nav-info-container">
-          <button id="index-features">Features</button>
+          <a id="index-features">Features</a>
         </nav>
         <div id="signin-container">
-          <div id="signin">sign in</div>
-          <div id="create-account">create account</div>
+          <a id="signin">Sign in</a>
+          <a id="create-account">Create account</a>
         </div>
       </div>
+      <!-- Overlays -->
+      <div id="overlay-features" class="overlay">
+        <div class="overlay-content">
+          <span class="close-btn" onclick="closeOverlay('overlay-features')"
+            >&times;</span
+          >
+          <h2>App Features</h2>
+          <div class="green-bar"></div>
+          <div id="features-cont">
+            <ul id="features-ul">
+              <li>Curated restaurant choices near you</li>
+              <li>Real-time order tracking from kitchen to door</li>
+              <li>Fast delivery options within 30 minutes</li>
+              <li>Smooth, mobile-friendly interface</li>
+              <li>Multiple secure payment methods</li>
+              <li>Personalized recommendations based on taste</li>
+              <li>Exclusive deals, rewards & promo codes</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div id="overlay-signin" class="overlay">
+        <div class="overlay-content">
+          <span class="close-btn" onclick="closeOverlay('overlay-signin')"
+            >&times;</span
+          >
+          <h2>Sign In</h2>
+          <div class="green-bar"></div>
+          <form class="form-padding">
+            <label for="signin-email">Email:</label><br />
+            <input
+              class="create-account-input"
+              type="email"
+              id="signin-email"
+              name="email"
+              required
+            /><br /><br />
+
+            <label for="signin-password">Password:</label><br />
+            <input
+              class="create-account-input"
+              type="password"
+              id="signin-password"
+              name="password"
+              required
+            /><br /><br />
+
+            <button class="login-btn" type="submit">Sign In</button>
+          </form>
+        </div>
+      </div>
+
+      <div id="overlay-create" class="overlay">
+        <div class="overlay-content">
+          <span class="close-btn" onclick="closeOverlay('overlay-create')"
+            >&times;</span
+          >
+          <h2>Create Account</h2>
+          <div class="green-bar"></div>
+          <form class="form-padding">
+            <label for="create-name">Name:</label><br />
+            <input
+              class="create-account-input"
+              type="text"
+              id="create-name"
+              name="name"
+              required
+            /><br /><br />
+
+            <label for="create-email">Email:</label><br />
+            <input
+              class="create-account-input"
+              type="email"
+              id="create-email"
+              name="email"
+              required
+            /><br /><br />
+
+            <label for="create-password">Password:</label><br />
+            <input
+              class="create-account-input"
+              type="password"
+              id="create-password"
+              name="password"
+              required
+            /><br /><br />
+
+            <button class="login-btn" type="submit">Create Account</button>
+          </form>
+        </div>
+      </div>
+
       <div id="hero-container">
         <div id="hero-logo">
           <img id="hero-image" src="header.jpg" alt="header image" />
@@ -39,35 +132,135 @@
             <li>Lahore</li>
             <li>Islamabad</li>
             <li>Rawalpindi</li>
-            <li>Faisalabad</li>
             <li>Multan</li>
             <li>Peshawar</li>
             <li>Quetta</li>
-            <li>Hyderabad</li>
-            <li>Gujranwala</li>
           </ul>
         </div>
       </div>
       <div id="terms-etc">
         <div>
-          <label class="light-caption">Terms & Conditions</label>
+          <label id="terms-link" class="light-caption"
+            >Terms & Conditions</label
+          >
         </div>
         <div>
-          <label class="light-caption">FAQs</label>
+          <a id="faqs-link" class="light-caption">FAQs</a>
         </div>
         <div>
-          <label class="light-caption">Privacy Policy</label>
+          <a id="privacy-link" class="light-caption">Privacy Policy</a>
         </div>
         <div>
-          <label class="light-caption">Contact Us</label>
+          <a id="contact-link" class="light-caption">Contact Us</a>
         </div>
       </div>
+
       <div id="footer-container">
         <div>
-          <label class="light-caption">@2025 ***.com</label>
+          <label class="light-caption">@2025 FoodieGo.com</label>
         </div>
       </div>
     </div>
-    <script src="script.js"></script>
+    <!-- Terms Overlay -->
+    <div id="overlay-terms" class="overlay">
+      <div class="overlay-content">
+        <span class="close-btn" onclick="closeOverlay('overlay-terms')"
+          >&times;</span
+        >
+        <h2>Terms & Conditions</h2>
+        <div class="green-bar"></div>
+        <p class="small-padded-text">
+          By using FoodieGo, you agree to our terms of service, delivery
+          policies, and user responsibilities.
+        </p>
+        <p class="small-padded-text">All rights reserved © 2025.</p>
+      </div>
+    </div>
+
+    <!-- FAQs Overlay -->
+    <div id="overlay-faqs" class="overlay">
+      <div class="overlay-content">
+        <span class="close-btn" onclick="closeOverlay('overlay-faqs')"
+          >&times;</span
+        >
+        <h2>FAQs</h2>
+        <div class="green-bar"></div>
+        <ul style="text-align: left">
+          <li class="small-padded-text">
+            <strong>Q:</strong> How long does delivery take?<br /><strong
+              >A:</strong
+            >
+            Typically 30–45 minutes.
+          </li>
+          <li class="small-padded-text">
+            <strong>Q:</strong> Can I cancel my order?<br /><strong>A:</strong>
+            Yes, within 5 minutes of placing it.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Privacy Policy Overlay -->
+    <div id="overlay-privacy" class="overlay">
+      <div class="overlay-content">
+        <span class="close-btn" onclick="closeOverlay('overlay-privacy')"
+          >&times;</span
+        >
+        <h2>Privacy Policy</h2>
+        <div class="green-bar"></div>
+        <p class="small-padded-text">
+          We respect your privacy. Your data is securely stored and never shared
+          with third parties without consent.
+        </p>
+      </div>
+    </div>
+
+    <!-- Contact Us Overlay -->
+    <div id="overlay-contact" class="overlay">
+      <div class="overlay-content">
+        <span class="close-btn" onclick="closeOverlay('overlay-contact')"
+          >&times;</span
+        >
+        <h2>Contact Us</h2>
+        <div class="green-bar"></div>
+        <p class="small-padded-text">
+          Email: support@foodiego.com<br />Phone: +92-300-1234567
+        </p>
+      </div>
+    </div>
+
+    <script>
+      document.getElementById("index-features").onclick = function () {
+        document.getElementById("overlay-features").style.display = "flex";
+      };
+
+      document.getElementById("signin").onclick = function () {
+        document.getElementById("overlay-signin").style.display = "flex";
+      };
+
+      document.getElementById("create-account").onclick = function () {
+        document.getElementById("overlay-create").style.display = "flex";
+      };
+
+      document.getElementById("terms-link").onclick = function () {
+        document.getElementById("overlay-terms").style.display = "flex";
+      };
+
+      document.getElementById("faqs-link").onclick = function () {
+        document.getElementById("overlay-faqs").style.display = "flex";
+      };
+
+      document.getElementById("privacy-link").onclick = function () {
+        document.getElementById("overlay-privacy").style.display = "flex";
+      };
+
+      document.getElementById("contact-link").onclick = function () {
+        document.getElementById("overlay-contact").style.display = "flex";
+      };
+
+      function closeOverlay(id) {
+        document.getElementById(id).style.display = "none";
+      }
+    </script>
   </body>
 </html>

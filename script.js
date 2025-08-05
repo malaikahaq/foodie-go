@@ -352,3 +352,6 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     .catch((err) => console.error("Error loading restaurants.json", err));
 });
+function goBack() {
+  window.history.back();
+}

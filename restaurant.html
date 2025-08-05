@@ -13,20 +13,26 @@
   <body>
     <div class="rest-parent-container">
       <div class="navbar-container">
-        <div class="header-logo-container">Foodie Go</div>
+        <div class="header-logo-container">
+          <label>Foodie</label>
+          <label style="color: #27ae60">Go</label>
+        </div>
         <div class="cart-container">
           <label id="cartBtn" style="cursor: pointer">🛒</label>
+        </div>
+        <div>
+          <a class="back-btn" href="#" onclick="goBack()">Back</a>
         </div>
         <div id="cartOverlay" class="hidden"></div>
         <div id="confirmationDialog" class="hidden">
           <p id="confirmText"></p>
-          <button id="confirmYes">Yes</button>
-          <button id="confirmNo">No</button>
+          <button id="confirmYes" class="green-btns">Yes</button>
+          <button id="confirmNo" class="green-btns">No</button>
         </div>
-        <div class="signin-container">
+        <!-- <div class="signin-container">
           <div class="signin">sign in</div>
           <div class="create-account">create account</div>
-        </div>
+        </div> -->
       </div>
       <div class="rest-main-container">
         <div class="rest-header-img"></div>

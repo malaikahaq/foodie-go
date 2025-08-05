@@ -33,11 +33,103 @@ body {
 
 /* Navbar */
 #index-main-nav-container {
-  padding-top: 10px;
+  background-color: #27ae60;
+  padding: 10px 200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   grid-area: index-navbar;
+}
+#index-features {
+  color: #f8f8f8;
+  padding: 5px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  border: none;
+  background-color: inherit;
+  font-weight: bold;
+  cursor: pointer;
+}
+#features-ul {
+  text-align: left;
+  padding-left: 20px;
+  margin-top: 15px;
+}
+#features-cont {
+  padding: 10px 10px;
+  border-radius: 20px;
+  margin: 10px 5px;
+}
+.green-bar {
+  width: cover;
+  height: 2px;
+  background-color: #27ae60;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+/* .form-padding {
+  padding-top: 10px;
+} */
+
+ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: none;
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay-content {
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  width: 80%;
+  max-width: 400px;
+  position: relative;
+  text-align: center;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.create-account-input {
+  width: 90%;
+  padding: 8px;
+  margin: 4px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-btn {
+  background: #27ae60;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 24px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #222;
 }
 
 #nav-info-container {
@@ -55,7 +147,8 @@ body {
 #signin,
 #create-account {
   cursor: pointer;
-  color: #333;
+  color: #f8f8f8;
+  font-weight: bold;
 }
 
 /* Hero Section */
@@ -81,7 +174,8 @@ body {
 #order-btn-cont {
   position: absolute;
   top: 81%;
-  right: 50%;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 2; /* Ensure it's above the image */
 }
 .order-btn {
@@ -100,29 +194,30 @@ body {
   background-color: white;
   text-align: center;
   grid-area: cities-container;
+  padding: 20px 150px;
+  padding-bottom: 0px;
+  border: 1px solid #27ae60;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .orange {
   font-size: 18px;
   color: #000000;
 }
-#cities-names {
-  margin: 10px 200px;
-  padding-bottom: 70px;
-}
+
 #cities-names ul {
   list-style: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  gap: 10px 20px;
+  gap: 15px 10px;
   padding: 0;
-  margin: 10px 0;
+  margin: 20px 0;
+  font-size: 15px;
   color: #333;
-  font-size: 14px;
-  justify-content: center;
-  text-align: center;
+  font-weight: 500;
 }
-
 /* Terms section */
 #terms-etc {
   display: flex;
@@ -132,6 +227,11 @@ body {
   margin-bottom: 10px;
   flex-wrap: wrap;
   grid-area: terms-etc;
+}
+#cities-header h1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2d2d2d;
 }
 
 .light-caption {
@@ -151,6 +251,10 @@ body {
 #footer-container label {
   font-size: 12px;
   color: #bbb;
+}
+.small-padded-text {
+  padding: 10px 20px;
+  font-size: small;
 }
 
 /* Responsive tweaks */
@@ -183,54 +287,43 @@ body {
 /* --- NAVBAR --- */
 .navbar-container {
   grid-area: nav;
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: auto;
-  grid-template-areas: "header-logo cart signin-container";
+  display: flex;
+  justify-content: space-around;
   align-items: center;
-  padding: 20px 40px;
+  padding: 20px 20px;
 }
 
 .header-logo-container {
-  grid-area: header-logo;
   font-size: 20px;
   font-weight: bold;
   color: #333;
 }
 
 .cart-container {
-  grid-area: cart;
   display: flex;
   justify-content: center;
 }
-
-.signin-container {
-  grid-area: signin-container;
-  display: grid;
-  grid-template-columns: auto auto;
-  gap: 10px;
-  align-items: center;
-  grid-template-areas: "sign-in create-account";
+.back-btn {
+  display: flex;
+  justify-content: center;
+  color: #27ae60;
+  text-decoration: none;
+  font-weight: bold;
 }
-
-.signin {
-  grid-area: sign-in;
-  font-size: 14px;
-  color: #333;
-  cursor: pointer;
-}
-
-.create-account {
-  grid-area: create-account;
-  background-color: #28c76f;
-  color: white;
-  padding: 6px 14px;
+.green-btns {
+  display: flex;
+  justify-content: center;
+  background-color: #27ae60;
+  color: #f9f9f9;
+  text-decoration: none;
+  font-weight: bold;
   border-radius: 20px;
-  font-size: 14px;
-  font-weight: 500;
+  padding: 5px 10px;
+  border: none;
+  margin: auto;
+  margin-bottom: 5px;
   cursor: pointer;
 }
-
 /* --- FOOD OPTIONS --- */
 .food-opt-container {
   grid-area: food-options;
@@ -448,8 +541,13 @@ input {
   background-color: #000000;
   color: white;
   font-size: 14px;
-  padding: 15px 0;
+  padding: 5px 0;
   grid-area: footer;
+}
+
+.footer-container label {
+  font-size: 12px;
+  color: #bbb;
 }
 
 /* restaurant page */
